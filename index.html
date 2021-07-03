@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
     </style>
     <link rel="stylesheet" href="css/styles.css">
     <title>Title</title>
@@ -21,8 +21,11 @@
         <div class="row wrapper-size">
 
             <!-- HEADER SECTION -->
-            <header>
-                <button class="btn btn-secondary login ">Login</button>
+            <header id="header" class="row">
+                <div class="login-container">
+                    <button class="btn btn-secondary login">Login</button>
+                </div>
+
                 <div class="logo">
                     <img src="/images/HatchfulExport-All/facebook_cover_photo_1.png" alt="Logo for NZA law firm">
                 </div>
@@ -42,36 +45,81 @@
             </header>
 
             <!-- MAIN SECTION -->
-            <main>
-
+            <main id="main" class="row row-cols-2 content">
+                <div class="col-9 slideshow">
+                    <img src="/images/nza_slideshow.jpg">
+                </div>
+                <div class="col-3 news">
+                    <h4>news feed</h4>
+                    <hr>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae alias sint blanditiis
+                        magnam deleniti voluptatibus maxime? Ut maiores corrupti, libero quae officiis facere commodi
+                        eum, odio ipsam quibusdam beatae fugiat. Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Minus ipsam debitis a ipsum autem amet earum asperiores itaque enim deleniti voluptatem
+                        nostrum sed cum reprehenderit praesentium doloribus, pariatur quaerat consequuntur! Lorem ipsum
+                        dolor sit amet consectetur adipisicing elit. Ducimus, itaque! Adipisci, unde molestiae quos
+                        minima fuga repellat, eaque iure assumenda atque itaque cumque. Sed modi sit nisi. Nisi, facere
+                        vero?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae alias sint blanditiis
+                        magnam deleniti voluptatibus maxime? Ut maiores corrupti, libero quae officiis facere commodi
+                        eum, odio ipsam quibusdam beatae fugiat. Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Minus ipsam debitis a ipsum autem amet earum asperiores itaque enim deleniti voluptatem
+                        nostrum sed cum reprehenderit praesentium doloribus, pariatur quaerat consequuntur! Lorem ipsum
+                        dolor sit amet consectetur adipisicing elit. Ducimus, itaque! Adipisci, unde molestiae quos
+                        minima fuga repellat, eaque iure assumenda atque itaque cumque. Sed modi sit nisi. Nisi, facere
+                        vero?</p>
+                </div>
+                <div class="col-9 welcome">
+                    <h5>Welcome to our website!</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil aperiam quis nostrum libero
+                        obcaecati vitae debitis aut officiis earum, rem placeat. Maiores provident rerum eveniet error
+                        accusantium! Eveniet, totam nulla?</p>
+                </div>
+                <div class="col-3 address">
+                    <h5>Bigshot, Zoo, &amp; Adds, P.C.</h5>
+                    <p>419 West South Street, Suite 4200
+                        <br>Houston, Texas 35983
+                        <br>555-555-5555 &#40;Phone&#41;
+                        <br>555-555-5555 &#40;Fax&#41;
+                    </p>
+                </div>
             </main>
 
             <!-- FOOTER SECTION -->
-            <!-- <footer>
+            <footer id="footer" class="row">
                 <nav>
-                    <span><a href="#">WHO WE ARE</a></span>
-                    <span>
+                    <span class="col footer-item">
+                        <a href="#">WHO WE ARE</a>
+                    </span>
+                    <span class="col footer-item">
                         <hr>
                     </span>
-                    <span><a href="#">WHAT WE DO</a></span>
-                    <span>
+                    <span class="col footer-item">
+                        <a href="#">WHAT WE DO</a>
+                    </span>
+                    <span class="col footer-item">
                         <hr>
                     </span>
-                    <span><a href="#">NEWS &AMP; EVENTS</a></span>
-                    <span>
+                    <span class="col footer-item">
+                        <a href="#">NEWS &AMP; EVENTS</a>
+                    </span>
+                    <span class="col footer-item">
                         <hr>
                     </span>
-                    <span><a href="#">WHERE WE WORK</a></span>
-                    <span>
+                    <span class="col footer-item">
+                        <a href="#">WHERE WE WORK</a>
+                    </span>
+                    <span class="col footer-item">
                         <hr>
                     </span>
-                    <span><a href="#">CONTACT US</a></span>
+                    <span class="col footer-item">
+                        <a href="#">CONTACT US</a>
+                    </span>
                 </nav>
-            </footer> -->
+            </footer>
 
         </div>
     </div>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
