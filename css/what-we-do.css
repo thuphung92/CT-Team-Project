@@ -1,0 +1,30 @@
+/* MAIN SECTION */
+.side-nav {
+    background-image: url(../images/nav_side.jpg);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.side-nav img {
+    width: 100%;
+}
+#nav-header {
+    text-transform: uppercase;
+    border-bottom: 2px solid #eee;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+}
+
+dd {
+    padding-left: 15px;
+}
+
+.cnt-img-wrapper img {
+    width: 300px;
+    margin: 3px;
+}

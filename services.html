@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="Enter your description here" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
     </style>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Title</title>
+    <title>What We Do</title>
 </head>
 
 <body>
@@ -21,20 +22,23 @@
         <div class="row wrapper-size">
 
             <!-- HEADER SECTION -->
-            <header>
-                <button class="btn btn-secondary login ">Login</button>
+            <header id="header" class="row">
+                <div class="login-container">
+                    <button class="btn btn-secondary login">Login</button>
+                </div>
+
                 <div class="logo">
-                    <img src="/images/HatchfulExport-All/facebook_cover_photo_1.png" alt="Logo for NZA law firm">
+                    <img src="images/HatchfulExport-All/facebook_cover_photo_1.png" alt="Logo for NZA law firm">
                 </div>
                 <nav class="main-nav">
                     <ul>
-                        <li><a href="#">who we are</a></li>
+                        <li><a href="index.html">who we are</a></li>
                         <li class="vertical-line"></li>
-                        <li><a href="#">what we do</a></li>
+                        <li><a href="services.html">what we do</a></li>
                         <li class="vertical-line"></li>
                         <li><a href="#">news &amp; events</a></li>
                         <li class="vertical-line"></li>
-                        <li><a href="#">where we work</a></li>
+                        <li><a href="location.html">where we work</a></li>
                         <li class="vertical-line"></li>
                         <li><a href="#">contact us</a></li>
                     </ul>
@@ -42,38 +46,92 @@
             </header>
 
             <!-- MAIN SECTION -->
-            <main>
-
+            <main id="main" class="row row-cols-1 row-cols-sm-1 row-cols-md-2 content">
+                <div class="col-md-3 side pl-0 pr-0 pb-5">
+                    <nav class="side-nav pt-2 pb-3 pl-3 pr-3 text-break">
+                        <h1 id="nav-header" class="my-2 pb-1 font-weight-bold">what we do</h1>
+                        <dl class="nav-list">
+                            <dt><a href="#">Subrogation</a></dt>
+                            <dd><a href="#" alt="property">Property</a></dd>
+                            <dd><a href="#" alt="worker's comp">Workers' Comp</a></dd>
+                            <dt><a href="#">Litigation</a></dt>
+                            <dd><a href="#" alt="Appeliate">Appeliate</a></dd>
+                            <dd><a href="#" alt="Commercial">Commercial</a></dd>
+                            <dd><a href="#" alt="Defense">Defense</a></dd>
+                            <dd><a href="#" alt="Labor orEmployment">Labor/Employment</a></dd>
+                            <dt><a href="#">Business</a></dt>
+                            <dd><a href="#" alt="Brokerage Agreement">Brokerage Agreement</a></dd>
+                            <dd><a href="#" alt="Business Formation">Business Formation</a></dd>
+                            <dd><a href="#" alt="Business Related">Business Related</a></dd>
+                            <dd><a href="#" alt="Contracts">Contracts</a></dd>
+                            <dd><a href="#" alt="Property">Property</a></dd>
+                            <dd><a href="#" alt="Labor/Employment">Labor/Employment</a></dd>
+                            <dt><a href="#">Transportation</a></dt>
+                            <dd><a href="#" alt="Brokage Agreement">Brokage Agreement</a></dd>
+                            <dd><a href="#" alt="Business Formation">Business Formation</a></dd>
+                        </dl>
+                        <div class="pic-wrapper mt-2 mb-2 p-0">
+                            <img src="images/content-navlink-attorneys.jpg" style="width:100%">
+                        </div>
+                        <p class="font-weight-bold">Attorneys</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam tenetur qui ea fugiat omnis
+                            voluptatibus iusto, vero asperiores placeat exercitationem nam sed eaque ipsam voluptatem
+                            similique quae sint, harum labore!</p>
+                    </nav>
+                </div>
+                <div class="col-md-9 pb-5 pr-0">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta veritatis voluptatibus,
+                        assumenda incidunt, nihil praesentium fugit impedit tempora aperiam pariatur odio quam vero
+                        explicabo doloribus rerum? Consequatur aut ipsa voluptas. Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Sit veritatis dolorum officia deserunt non dignissimos
+                        voluptatibus aut vitae ex consequatur. Nesciunt blanditiis sunt illo dignissimos dolorem aliquam
+                        veritatis, dolorum nostrum?</p>
+                    <div class="cnt-img-wrapper d-flex flex-wrap justify-content-md-around mt-3">
+                        <div><img src="images/sub-02-subrogation.jpg" alt="subrogation image"></div>
+                        <div><img src="images/sub-02-litigation.jpg" alt="litigation image"></div>
+                        <div><img src="images/sub-02-business.jpg" alt="business image"></div>
+                        <div><img src="images/sub-02-warehouse.jpg" alt="transportation image"></div>
+                    </div>
+                </div>
             </main>
 
             <!-- FOOTER SECTION -->
-            <!-- <footer>
-                    <nav>
-                        <span><a href="#">WHO WE ARE</a></span>
-                        <span>
-                            <hr>
-                        </span>
-                        <span><a href="#">WHAT WE DO</a></span>
-                        <span>
-                            <hr>
-                        </span>
-                        <span><a href="#">NEWS &AMP; EVENTS</a></span>
-                        <span>
-                            <hr>
-                        </span>
-                        <span><a href="#">WHERE WE WORK</a></span>
-                        <span>
-                            <hr>
-                        </span>
-                        <span><a href="#">CONTACT US</a></span>
-                    </nav>
-                </footer> -->
-
+            <footer id="footer" class="row">
+                <nav>
+                    <span class="col footer-item">
+                        <a href="/index.html">WHO WE ARE</a>
+                    </span>
+                    <span class="col footer-item dash">
+                        <hr>
+                    </span>
+                    <span class="col footer-item">
+                        <a href="/services.html">WHAT WE DO</a>
+                    </span>
+                    <span class="col footer-item dash">
+                        <hr>
+                    </span>
+                    <span class="col footer-item">
+                        <a href="#">NEWS &AMP; EVENTS</a>
+                    </span>
+                    <span class="col footer-item dash">
+                        <hr>
+                    </span>
+                    <span class="col footer-item">
+                        <a href="/location.html">WHERE WE WORK</a>
+                    </span>
+                    <span class="col footer-item dash">
+                        <hr>
+                    </span>
+                    <span class="col footer-item">
+                        <a href="/contact.html">CONTACT US</a>
+                    </span>
+                </nav>
+            </footer>
         </div>
     </div>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>

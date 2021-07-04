@@ -133,7 +133,7 @@ table {
 
 body {
 	box-sizing: border-box;
-	background-image: url("/images/nza_background.jpg");
+	background-image: url(../images/nza_background.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -141,6 +141,8 @@ body {
 	width: 100%;
 	padding: 2.5% 0;
 	font-family: 'Roboto', sans-serif;
+	line-height: 1.5;
+	font-weight: 100;
 }
 
 /* CONTAINER SECTION */
@@ -193,6 +195,7 @@ header {
 	border-right: none;
 	padding: 10px 0;
 	margin-top: 10px;
+	font-weight: 400;
 }
 .vertical-line {
 	border-left: 4px solid rgba(155, 154, 154, .4);
@@ -292,6 +295,7 @@ footer nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-weight: 400;
 }
 
 .footer-item {
@@ -327,4 +331,35 @@ footer nav {
 #footer {
 	margin-left: 0;
 	margin-right: 0;
+}
+
+/* SERVICES PAGE'S CSS */
+.side-nav {
+    background-image: url(../images/nav_side.jpg);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.side-nav img {
+    width: 100%;
+}
+#nav-header {
+    text-transform: uppercase;
+    border-bottom: 2px solid #eee;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+}
+
+dd {
+    padding-left: 10px;
+}
+
+.cnt-img-wrapper img {
+    width: 250px;
+    margin: 3px;
 }
