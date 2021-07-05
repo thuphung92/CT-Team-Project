@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="Enter your description here" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="css/style">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+    </style>
     <link rel="stylesheet" href="css/styles.css">
     <title>Title</title>
 </head>
@@ -19,58 +21,77 @@
         <div class="row wrapper-size">
 
             <!-- HEADER SECTION -->
-            <header class="row">
-                <button class="btn btn-secondary login ">Login</button>
+            <header id="header" class="row">
+                <div class="login-container">
+                    <button class="btn btn-secondary login">Login</button>
+                </div>
+
                 <div class="logo">
-                    <img src="/images/HatchfulExport-All/facebook_cover_photo_1.png" alt="Logo for NZA law firm">
+                    <img src="images/HatchfulExport-All/facebook_cover_photo_1.png" alt="Logo for NZA law firm">
                 </div>
                 <nav class="main-nav">
                     <ul>
-                        <li><a href="#">who we are</a></li>
+                        <li><a href="index.html">who we are</a></li>
                         <li class="vertical-line"></li>
-                        <li><a href="#">what we do</a></li>
+                        <li><a href="services.html">what we do</a></li>
                         <li class="vertical-line"></li>
                         <li><a href="#">news &amp; events</a></li>
                         <li class="vertical-line"></li>
-                        <li><a href="#">where we work</a></li>
+                        <li><a href="location.html">where we work</a></li>
                         <li class="vertical-line"></li>
-                        <li><a href="#">contact us</a></li>
+                        <li><a href="contact.html">contact us</a></li>
                     </ul>
                 </nav>
             </header>
 
             <!-- MAIN SECTION -->
-            <main class="row">
-
+            <main id="main" class="row content">
+                <div class="col-3">left</div>
+                <div class="col-6">
+                    <div class="row">middle</div>
+                    <div class="row">middle</div>
+                </div>
+                <div class="col-3">right</div>
             </main>
 
             <!-- FOOTER SECTION -->
-            <!-- <footer class="row">
+            <footer id="footer" class="row">
                 <nav>
-                    <span><a href="#">WHO WE ARE</a></span>
-                    <span>
+                    <span class="col footer-item">
+                        <a href="/index.html">WHO WE ARE</a>
+                    </span>
+                    <span class="col footer-item dash">
                         <hr>
                     </span>
-                    <span><a href="#">WHAT WE DO</a></span>
-                    <span>
+                    <span class="col footer-item">
+                        <a href="/services.html">WHAT WE DO</a>
+                    </span>
+                    <span class="col footer-item dash">
                         <hr>
                     </span>
-                    <span><a href="#">NEWS &AMP; EVENTS</a></span>
-                    <span>
+                    <span class="col footer-item">
+                        <a href="#">NEWS &AMP; EVENTS</a>
+                    </span>
+                    <span class="col footer-item dash">
                         <hr>
                     </span>
-                    <span><a href="#">WHERE WE WORK</a></span>
-                    <span>
+                    <span class="col footer-item">
+                        <a href="/location.html">WHERE WE WORK</a>
+                    </span>
+                    <span class="col footer-item dash">
                         <hr>
                     </span>
-                    <span><a href="#">CONTACT US</a></span>
+                    <span class="col footer-item">
+                        <a href="/contact.html">CONTACT US</a>
+                    </span>
                 </nav>
-            </footer> -->
+            </footer>
 
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
