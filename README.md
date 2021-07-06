@@ -1,7 +1,6 @@
-# CT-Team-Project
-This is the first team project for Coding Temple Bootcamp using HTML5, CSS3 and Bootstrap-V5
 
-##Team Members
+# CT-Team-Project
+This is the first team project for Coding Temple Bootcamp using HTML5, CSS3 and Bootstrap-V5##Team Members
 -Fernando Anderson
 -Thu Phung
 -Benny Chean
@@ -31,4 +30,5 @@ This is the first team project for Coding Temple Bootcamp using HTML5, CSS3 and 
 
 ##Trello board
 <img width="1440" alt="Screen Shot 2021-07-05 at 11 47 36 PM" src="https://user-images.githubusercontent.com/86483561/124539610-d1180f00-ddeb-11eb-8a02-bace6f2fd599.png">
+
 
