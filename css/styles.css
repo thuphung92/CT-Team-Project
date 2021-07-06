@@ -362,8 +362,16 @@ dd {
 }
 
 .cnt-img-wrapper img {
-	width: 250px;
-	margin: 3px;
+	width: 100%;
+}
+
+/* LOCATION PAGE'S CSS - Add bottom border line to the table */
+th {
+	border-bottom: 2px solid lightgrey;
+}
+
+#bottom-text {
+	font-size: 13px;
 }
 
 /* CONTACT US CSS */
