@@ -137,7 +137,7 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 200vh;
+	height: auto;
 	width: 100%;
 	padding: 2.5% 0;
 	font-family: 'Roboto', sans-serif;
@@ -228,6 +228,8 @@ nav ul li {
 	margin-top: 25px;
 	border-bottom: 1px solid #000;
 	width: 100%;
+	font-size: 14px;
+	font-weight: 300;
 }
 .slideshow {
 	/* border: 1px solid #000; */
@@ -362,4 +364,81 @@ dd {
 .cnt-img-wrapper img {
 	width: 250px;
 	margin: 3px;
+}
+
+/* CONTACT US CSS */
+.contact-content {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5;
+	font-weight: 100;
+	padding-bottom: 60px;
+	margin-bottom: 10px;
+}
+
+.contact-content h5 {
+	font-size: 20px;
+	font-weight: 300;
+	margin: 15px 0;
+}
+
+.contact-content hr {
+	background-color: #fff;
+	margin: 0;
+}
+
+.contact-content p {
+	font-size: 14px;
+	margin: 10px 0 15px 0;
+	font-weight: 300;
+}
+
+.side-image img {
+	width: 100%;
+}
+
+.middle {
+	padding: 0 5px 0 10px;
+	margin: 0;
+}
+
+.middle img {
+	width: 100%;
+}
+
+.hours,
+.address-info,
+.phone-info,
+.contact-info {
+	width: 100%;
+}
+
+.info-contact {
+	color: #800000;
+}
+
+#news-events {
+	font-size: 14px;
+	font-weight: 400;
+	margin: 5px 0;
+}
+
+.right-side {
+	margin-bottom: 10px;
+}
+
+.left-side {
+	margin-bottom: 70px;
+}
+
+#last-para {
+	margin-bottom: 0;
+}
+
+.third {
+	margin: 15px 0;
+}
+
+.third img,
+.fourth img {
+	width: 100%;
 }
